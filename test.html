@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            display: inline-block;
+            background-color: gray;
+            border-radius: 3px;
+            margin-left: 20px;
+        }
+
+        li:first-child {
+            margin-left: 0px;
+        }
+
+        li:hover {
+            background-color: red;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        section.feature-box {
+            display: flex;
+        }
+
+        .feature-box div {
+            width: 100%;
+            margin: 1px;
+        }
+
+        section.sales div {
+            background: gray;
+        }
+
+        section.closeouts div {
+            background: red;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="locations.html">Locations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <section class="feature-box sales">
+        <div>Section a</div>
+        <div>Section b</div>
+        <div>Section c</div>
+    </section>
+    <section class="feature-box closeouts">
+        <div>Section d</div>
+        <div>Section e</div>
+    </section>
+</body>
+</html>
